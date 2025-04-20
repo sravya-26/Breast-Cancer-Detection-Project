@@ -1,112 +1,107 @@
 🩺 Breast Cancer Detection
 A machine learning-based classification project to detect breast cancer from medical data. The goal is to assist early diagnosis by predicting whether a tumor is malignant or benign using advanced analytics.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📚 Table of Contents
-Overview
+  
+    Overview
 
-Dataset
+    Dataset
 
-Technologies Used
+    Technologies Used
 
-Model Architecture
+    Model Architecture
 
-Installation
+    Installation
 
-Usage
+    Usage
 
-Results
+    Results
 
-Contributing
+    Contributing
 
-License
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📖 Overview
 Early and accurate detection of breast cancer significantly increases the chances of successful treatment. This project utilizes supervised machine learning models to classify tumors based on features extracted from digitized fine needle aspirates (FNA) of breast masses.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🗂️ Dataset
+
 Wisconsin Breast Cancer Dataset (WBCD)
 Includes diagnostic features such as:
 
-Radius
+    Radius
 
-Texture
+    Texture
 
-Perimeter
+    Perimeter
 
-Area
+    Area
 
-Smoothness
-
-And more...
+    Smoothness
 
 🧰 Technologies Used
-Python
 
-Jupyter Notebook
+    Python
 
-NumPy, Pandas
+    Jupyter Notebook
 
-Scikit-learn
+    NumPy, Pandas
 
-Matplotlib, Seaborn
+    Scikit-learn
+
+    Matplotlib, Seaborn
 
 🏗️ Model Architecture
+
 Implemented and compared multiple classification algorithms:
 
-Logistic Regression
+    Logistic Regression
 
-Support Vector Machine (SVM)
+    Support Vector Machine (SVM)
 
-k-Nearest Neighbors (k-NN)
+    k-Nearest Neighbors (k-NN)
 
-Random Forest
-
-XGBoost (optional)
+    Random Forest
 
 Evaluation Metrics:
 
-Accuracy
+    Accuracy
 
-Precision, Recall, F1-Score
+    Precision, Recall, F1-Score
 
-ROC-AUC Curve
+    ROC-AUC Curve
 
 ⚙️ Installation
 Clone the repository
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/breast-cancer-detection.git
-cd breast-cancer-detection
-(Optional) Create and activate a virtual environment
+    git clone https://github.com/your-username/breast-cancer-detection.git
+    cd breast-cancer-detection
+    Create and activate a virtual environment
 
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install required packages
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    Install required packages
+
 ▶️ Usage
+
 Launch Jupyter Notebook
 
-bash
-Copy
-Edit
-jupyter notebook
-Open breast_cancer_detection.ipynb and run the cells step-by-step.
+    jupyter notebook
+    Open breast_cancer_detection.ipynb and run the cells step-by-step.
 
 📊 Results
-Achieved ~XX% accuracy with the best-performing model
 
-ROC-AUC Score: XX
+    Achieved ~80% accuracy with the best-performing model
 
-Confusion matrix and classification report are available in the notebook
+    ROC-AUC Score: 0.894
+
+    Confusion matrix and classification report are available in the notebook
 
 🤝 Contributing
-Contributions are welcome! Feel free to fork the repo and submit a pull request to suggest improvements or add new features.
+
+    Contributions are welcome! Feel free to fork the repo and submit a pull request to suggest improvements or add new features.
